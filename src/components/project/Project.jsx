@@ -32,7 +32,10 @@ function Project() {
             <Title>Proyecto Banco</Title>
             <Info>
                 <p>El sistema actual está hecho en Java y lo encontraran en un repositorio de github, lean detenidamente el proyecto y encontraran las dos funciones que deben implementar.</p>
-                <a href='https://github.com/Ritatrcr/BankHackaton' target='blank'> <Button>Proyecto</Button></a>
+                <ButtonRow>
+                    <a href='https://github.com/Ritatrcr/BankHackaton' target='blank'> <Button>Proyecto</Button></a>
+                    <a href='https://unisabanaedu-my.sharepoint.com/:w:/g/personal/diegoprpr_unisabana_edu_co/ERW6NHegNXNLtRnrklaMWsoBRlB4U7-sjZZL2H90psl9qg?e=Vcj7GK' target='blank'><Button>Guía</Button></a>
+                </ButtonRow>
             </Info>
         </Section>
     </Container>
