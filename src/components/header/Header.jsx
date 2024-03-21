@@ -17,7 +17,7 @@ function Header() {
         </Hamburger>
         <NavMenu isOpen={isOpen} onClick={() => setIsOpen(false)}>
             <MenuLink to={`/`}> <span>Inicio</span> </MenuLink>
-            <MenuLink to={`/login`}> <span>Login</span> </MenuLink>
+            <MenuLink to={`/project`}> <span>Proyecto</span> </MenuLink>
         </NavMenu>
     </Nav>
   )

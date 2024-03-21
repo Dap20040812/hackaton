@@ -9,7 +9,7 @@ const Nav = styled.div `
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    background: linear-gradient(90deg, rgba(13,5,33,1) 0%, rgba(43,24,92,1) 100%);
+    background: linear-gradient(0deg, rgba(13,5,33,1) 0%, rgba(43,24,92,1) 100%);
     position: relative;
     top: 0;
     left: 0;

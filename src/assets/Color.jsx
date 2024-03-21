@@ -1,3 +1,3 @@
-export const PrimaryColor = "#C20BF2";
+export const PrimaryColor = "#8205a1";
 export const SecondaryColor = "#0D0521";
-export const ThirdColor = "#F1EDE9";
+export const TextColor = "#F1EDE9";
