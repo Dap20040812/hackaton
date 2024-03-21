@@ -8,12 +8,12 @@ function Project() {
         <Content>
             <LeftContent>
                 <TitleContent>Problema</TitleContent>
-                <p>En Banco Siuu creamos un sistema para crear cuentas para nuestros clientes, pero tenemos un problema de seguridad muy grande, ya que guardamos las contraseñas de nuestros usuarios sin ningún tipo de encriptación, por lo que si un hacker nos roba la información podrá acceder a la cuenta de todos nuestros clientes, como banco es algo que no nos podemos permitir, por eso requerimos de su ayuda para solucionarlo.</p>
+                <p>En Banco Siuu tenemos un sistema para crear cuentas para nuestros clientes, sin embargo tenemos un problema de seguridad muy grande: guardamos las contraseñas de nuestros usuarios sin ningún tipo de encriptación, por lo que si un hacker nos roba la información podrá acceder a la cuenta de todos nuestros clientes. Como banco es algo que no nos podemos permitir, por eso requerimos de su ayuda para solucionarlo.</p>
             </LeftContent>
             <RightContentColumn>
                 <TitleContent>Objetivo</TitleContent>
                 <p>Crear un sistema de encriptación para las contraseñas de nuestros clientes, que sea seguro y no sea vulnerable a ataques de fuerza bruta, para que nuestros clientes puedan dormir tranquilos sabiendo que su dinero está seguro.</p>
-                <p>Para esto se debe definir un modelo de encriptación que me permita encriptar y desencriptar las claves.</p>
+                <p>Para esto se debe definir un modelo de encriptación que permita encriptar y desencriptar las claves.</p>
             </RightContentColumn>
         </Content>
         <ContentColumn>
@@ -31,7 +31,7 @@ function Project() {
         <Section>
             <Title>Proyecto Banco</Title>
             <Info>
-                <p>El sistema actual está en hecho en Java y lo encontraran en un repositorio de github, lean detenidamente el proyecto y encontraran las dos funciones que deben implementar.</p>
+                <p>El sistema actual está hecho en Java y lo encontraran en un repositorio de github, lean detenidamente el proyecto y encontraran las dos funciones que deben implementar.</p>
                 <a href='https://github.com/Ritatrcr/BankHackaton' target='blank'> <Button>Proyecto</Button></a>
             </Info>
         </Section>
