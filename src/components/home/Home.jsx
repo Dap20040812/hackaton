@@ -16,7 +16,7 @@ function Home() {
         <Title>Hackaton</Title>
         <Info>
         <Info>
-                <p>Podrás con tu equipo ayudar al Banco Siuuu a encontrar la mejor solución.</p>
+                <p>¿Podrás ayudar al Banco Siuuu a encontrar la mejor solución?</p>
                 <Button onClick={() => navigate('/project')}>Comenzar</Button>
             </Info>
         </Info>
