@@ -18,6 +18,7 @@ export const Section = styled.div`
     @media (max-width: 1200px){
         padding: 1em;
     }
+
     @media (max-width: 1000px){
         flex-direction: column;
         padding: 0;
@@ -37,7 +38,7 @@ export const Title = styled.h1`
     align-items: center;
     width: 50%;
 
-    @media (max-width: 1200px){
+    @media (max-width: 1400px){
         font-size: 6em;
         width: 50%;
     }
@@ -59,14 +60,20 @@ export const Info = styled.div`
         text-align: center;
     }
 
-    @media (max-width: 1200px){
+    @media (max-width: 1400px){
         width: 70%;
 
         p{
             font-size: 1.5em;
             text-align: center;
         }
-    }   
+    }  
+    
+    @media (max-width: 740px){
+        width: 100%;
+    
+    }
+
 `
 export const Button = styled.button`
     background-color: white;

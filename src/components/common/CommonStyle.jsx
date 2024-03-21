@@ -47,7 +47,7 @@ export const Title = styled.h1`
     align-items: center;
     width: 50%;
 
-    @media (max-width: 1200px){
+    @media (max-width: 1400px){
         font-size: 5em;
         width: 50%;
     }
@@ -75,12 +75,17 @@ export const Info = styled.div`
         text-align: center;
     }
 
-    @media (max-width: 1200px){
+    @media (max-width: 1400px){
+        width: 70%;
         p{
             font-size: 1.5em;
             text-align: center;
         }
     }   
+
+    @media (max-width: 740px){
+        width: 100%;
+    }
 `
 
 export const ButtonRow = styled.div`
