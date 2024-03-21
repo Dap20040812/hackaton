@@ -14,7 +14,7 @@ function CountdownTimer({deadline}) {
   }
 
 const getTimeUntil = (deadline) => {
-    const time = (Date.parse(deadline) - Date.parse(new Date())) + 5.04e+7 + (1 * 60 * 60 * 1000);
+    const time = (Date.parse(deadline) - Date.parse(new Date())) + 5.04e+7 + (3 * 60 * 60 * 1000);
 
     if (time < 0) {
         setDays(0);
