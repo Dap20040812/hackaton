@@ -15,15 +15,17 @@ export const Section = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 2em;
+    gap: 1em;
     width: 90%;
     margin-top: 5em;
     background-color: ${PrimaryColor};
     border: 8px solid ${PrimaryColor};
     border-radius: 110px 40px;
     margin-bottom: 3em;
+    padding: 2em; 
     @media (max-width: 1000px){
         flex-direction: column;
+        padding: 0;
     }
 
     p {
@@ -55,13 +57,19 @@ export const Info = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2em;
     text-align: center;
 
     h2{
         font-size: 2em;
         text-align: center;
     }
+
+    @media (max-width: 1000px){
+        p{
+            font-size: 1.5em;
+            text-align: center;
+        }
+    }  
 `
 
 export const ButtonRow = styled.div`
@@ -83,6 +91,7 @@ export const Button = styled.button`
     transition: all 0.3s ease-in-out;
     border: 1px solid black;
     box-shadow: 0 0 0 0 black;
+    font-family: Orbitron;
 
     &:hover {
         transform: translateY(-4px) translateX(-2px);
@@ -98,5 +107,6 @@ export const Button = styled.button`
     a {
         text-decoration: none;
         color: black;
+        font-family: Orbitron;
     }
 `
